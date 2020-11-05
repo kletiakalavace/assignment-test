@@ -1090,7 +1090,7 @@ display: -webkit-inline-box;
     --icon-size: 14px;
     --grid-column-gap: 3.5px;
     --grid-row-gap: 0px;
-    margin: 12px 0px 8px 0px;
+    margin: 26px 0px 8px 0px;
     text-align: center;
 }
 .header-section-logo{
@@ -1103,6 +1103,10 @@ display: -webkit-inline-box;
     fill: #000000;
     color: #000000;
     background-color: #eaeaea;
+}
+.main-navigation li#menu-item-18{
+	width: 13%;
+
 }
 .play-video{
 	object-fit: cover;
@@ -1417,6 +1421,9 @@ display: -webkit-inline-box;
 .clients-section-shape .elementor-shape-top .elementor-shape-fill {
     fill: #ffffff;
 }
+.clients-section-title{
+	padding-bottom: 56px;
+}
 .clients-section-title h2{
     color: #ffffff;
     font-family: "Montserrat", Sans-serif;
@@ -1471,9 +1478,12 @@ display: -webkit-inline-box;
     width: 100%
 }
 img.client-icon{
-	width: 87px;
+	width: 83px;
     margin: 0 auto 24px auto;
     display: block;
+}
+#wpcf7-f154-o1{
+	    padding: 25px 0;
 }
 .title-type{
 	display: block;
@@ -1728,8 +1738,8 @@ img.client-icon{
     text-align: center;
 }
 .col-md-2.office-city .widget_media_image img{
-	height: 150px !important;
-    width: 150px !important;
+	height: 141px !important;
+    width: auto !important;
     margin-bottom: 20px;
 }
 .col-md-2.office-city .widget_text .widget-title{
@@ -1743,12 +1753,12 @@ img.client-icon{
 	box-shadow: 0px 0px 66px 0px #70c04c;
 }
 #footer-sidebar{
-	background-color: rgba(12,12,12,0.22);
+	background-color: rgb(12 12 12 / 33%);
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 70px 0px 30px 0px;
 }
 #footer-2{
-	background-color: rgba(12,12,12,0.22);
+	background-color: rgb(12 12 12 / 33%);
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 	    padding: 10px;
 }
