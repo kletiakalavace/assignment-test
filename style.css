@@ -1128,7 +1128,7 @@ display: -webkit-inline-box;
     height: 0;
 }
 .video-title{
-	    margin: -208px 0px 0px 0px;
+	    margin: -93px 0px 0px 0px;
     padding: 20px 0px 0px 0px;
     -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
     transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
@@ -1820,6 +1820,7 @@ img.client-icon{
 @media (max-width: 1024px){
 	.video-description,.video-title {
 	    text-align: center;
+	        margin: -93px 0px 0px 0px;
 	}
 	.clients-section-shape .elementor-shape-top svg,.partners-section-shape .elementor-shape-top svg,.results-section-shape .elementor-shape-top svg{
 		height: 135px !important;
